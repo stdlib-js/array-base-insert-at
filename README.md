@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import insertAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-insert-at@deno/mod.js';
+import insertAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-insert-at@v0.1.0-deno/mod.js';
 ```
 
 #### insertAt( x, index, value )
@@ -104,7 +104,7 @@ The function accepts the following arguments:
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import randi from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import insertAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-insert-at@deno/mod.js';
+import insertAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-insert-at@v0.1.0-deno/mod.js';
 
 // Create an array of random numbers:
 var x = discreteUniform( 10, 0, 5, {
